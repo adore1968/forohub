@@ -12,7 +12,7 @@ public record DatosRespuestaTopico(
         LocalDateTime fechaDeCreacion,
         Estado status,
         String nombreDeCurso,
-        Long autorId
+        String autorCorreoElectronico
 ) {
     public DatosRespuestaTopico(Topico topico) {
         this(
@@ -22,7 +22,7 @@ public record DatosRespuestaTopico(
                 topico.getFechaDeCreacion(),
                 topico.getStatus(),
                 topico.getNombreDeCurso(),
-                topico.getAutor().getId()
+                topico.getAutor().getCorreoElectronico()
         );
     }
 }

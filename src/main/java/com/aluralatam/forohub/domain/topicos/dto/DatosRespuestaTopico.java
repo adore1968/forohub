@@ -6,7 +6,7 @@ import com.aluralatam.forohub.domain.topicos.Topico;
 import java.time.LocalDateTime;
 
 public record DatosRespuestaTopico(
-        Long id,
+        String id,
         String titulo,
         String mensaje,
         LocalDateTime fechaDeCreacion,
@@ -16,7 +16,7 @@ public record DatosRespuestaTopico(
 ) {
     public DatosRespuestaTopico(Topico topico) {
         this(
-                topico.getId(),
+                String.valueOf(topico.getId()),
                 topico.getTitulo(),
                 topico.getMensaje(),
                 topico.getFechaDeCreacion(),

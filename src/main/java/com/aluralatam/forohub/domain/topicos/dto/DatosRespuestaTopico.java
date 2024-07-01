@@ -6,23 +6,23 @@ import com.aluralatam.forohub.domain.topicos.Topico;
 import java.time.LocalDateTime;
 
 public record DatosRespuestaTopico(
-        String id,
+        Long id,
         String titulo,
         String mensaje,
         LocalDateTime fechaDeCreacion,
         Estado status,
         String nombreDeCurso,
-        String autorCorreoElectronico
+        Long autorId
 ) {
     public DatosRespuestaTopico(Topico topico) {
         this(
-                String.valueOf(topico.getId()),
+                topico.getId(),
                 topico.getTitulo(),
                 topico.getMensaje(),
                 topico.getFechaDeCreacion(),
                 topico.getStatus(),
                 topico.getNombreDeCurso(),
-                topico.getAutor().getCorreoElectronico()
+                topico.getAutor().getId()
         );
     }
 }

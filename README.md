@@ -1,11 +1,8 @@
-<h1 align="center">Practicando Spring Framework: Challenge Foro Hub</h1>
+<h1 align="center">Nodejs React Mongodb Login y CRUD (Aplicación FullStack con el stack MERN)</h1>
 
 <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green" display="inline" >
 
-Mi objetivo con este challenge fue implementar una API REST con las siguientes funcionalidades:
-- API con rutas implementadas siguiendo las mejores prácticas del modelo REST;
-- Validaciones realizadas según las reglas de negocio;
-- Implementación de una base de datos relacional para la persistencia de la información;
-- Servicio de autenticación/autorización para restringir el acceso a la información.
+Aprendí a crear una aplicación web Fullstack con el stack MERN (MongoDB, Express, React, Nodejs) usando Nodejs como Backend y Mongodb como base de datos NoSQL, y React como aplicacion frontend usando modulos como react-hook-form, react-router-dom, tailwindcss para estilizar la app y otros mas, ademas de usar JSON Web Tokens, cookies para la autenticacion/autorizacion, desarrollando una REST API validando los datos con el modulo zod y la creacion de un servidor con Express.
 
-![Captura de pantalla 1](https://github.com/adore1968/forohub_challenge/assets/101434158/f1e8f508-633a-4822-a57d-57d13187ff0f)
+![Opera Instantánea_2024-07-25_182613_localhost](https://github.com/user-attachments/assets/08caa19c-0ce3-46ae-9485-406c2347462d)
+
